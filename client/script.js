@@ -61,7 +61,7 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
   //  fetching data from server -> bot's response
-  const response = await fetch("http://localhost:5000", {
+  const response = await fetch("https://codex-0exh.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
